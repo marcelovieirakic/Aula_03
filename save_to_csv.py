@@ -1,7 +1,7 @@
 import pandas as pd
 
-caminho_arquivo_xlsx = '/mnt/c/Users/marcelovieira/Downloads/RECUP_ARREC_ENTRE_151_211.xlsx'
-caminho_arquivo_csv = '/mnt/c/Users/marcelovieira/Downloads/arquivo_unido.csv'
+caminho_arquivo_xlsx = '/mnt/c/Users/marcelovieira/Downloads/RECUP_PARC_ENTRE_151_211.xlsx'
+caminho_arquivo_csv = '/mnt/c/Users/marcelovieira/Downloads/arquivo_unido_parcelamento.csv'
 
 try:
     print("Lendo todas as abas do arquivo Excel...")
