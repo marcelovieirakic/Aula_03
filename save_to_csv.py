@@ -15,8 +15,8 @@ try:
     print("Salvando o arquivo CSV...")
     dados_unidos.to_csv(caminho_arquivo_csv, index=False)
     print("Arquivo CSV criado com sucesso:", caminho_arquivo_csv)
-except Exception as e:
-    print("Ocorreu um erro:", e)
+except Exception as listar_erro:
+    print("Ocorreu um erro:", listar_erro)
 
 
 
