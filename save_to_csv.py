@@ -12,7 +12,7 @@ try:
     dados_unidos = pd.concat(todas_as_abas.values(), ignore_index=True)
     print(f"Total de linhas após concatenação: {len(dados_unidos)}")
 
-    print("Salvando o arquivo CSV...")
+    print("Salvando o arquivo CSV....")
     dados_unidos.to_csv(caminho_arquivo_csv, index=False)
     print("Arquivo CSV criado com sucesso:", caminho_arquivo_csv)
 except Exception as listar_erro:
