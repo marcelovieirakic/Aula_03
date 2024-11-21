@@ -1,2 +1,2 @@
 # Ignorar a pasta do ambiente virtual
-ambiente_virtual_pandas/
+.venv
